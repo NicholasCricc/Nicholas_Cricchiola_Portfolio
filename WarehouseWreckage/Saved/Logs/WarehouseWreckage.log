@@ -1259,3 +1259,159 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2024.06.20-16.25.12:833][ 93]LogContentValidation: Display: Validating asset /Game/MainMap.MainMap
 [2024.06.20-16.25.12:833][ 93]AssetCheck: /Game/MainMap Validating asset
 [2024.06.20-16.25.14:727][310]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2024.06.20-16.31.13:345][858]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.20-16.31.13:367][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMap" FILE="E:/Unreal courses/Unreal_Portfolio/WarehouseWreckage/Content/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.06.20-16.31.13:390][858]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.06.20-16.31.13:416][858]LogSavePackage: Moving output files for package: /Game/MainMap
+[2024.06.20-16.31.13:417][858]LogSavePackage: Moving 'E:/Unreal courses/Unreal_Portfolio/WarehouseWreckage/Saved/MainMap6B0B37B14D0D3D1EE92F3C805F85D498.tmp' to 'E:/Unreal courses/Unreal_Portfolio/WarehouseWreckage/Content/MainMap.umap'
+[2024.06.20-16.31.13:422][858]LogFileHelpers: Saving map 'MainMap' took 0.055
+[2024.06.20-16.31.13:465][858]LogFileHelpers: InternalPromptForCheckoutAndSave took 119.883 ms (total: 443.290 ms)
+[2024.06.20-16.31.13:494][858]LogContentValidation: Display: Starting to validate 1 assets
+[2024.06.20-16.31.13:494][858]LogContentValidation: Enabled validators:
+[2024.06.20-16.31.13:494][858]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.06.20-16.31.13:494][858]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.06.20-16.31.13:494][858]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.06.20-16.31.13:494][858]LogContentValidation: Display: Validating asset /Game/MainMap.MainMap
+[2024.06.20-16.31.13:494][858]AssetCheck: /Game/MainMap Validating asset
+[2024.06.20-16.31.13:596][866]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.20-16.31.13:622][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMap" FILE="E:/Unreal courses/Unreal_Portfolio/WarehouseWreckage/Content/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.06.20-16.31.13:644][866]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2024.06.20-16.31.13:666][866]LogSavePackage: Moving output files for package: /Game/MainMap
+[2024.06.20-16.31.13:666][866]LogSavePackage: Moving 'E:/Unreal courses/Unreal_Portfolio/WarehouseWreckage/Saved/MainMapBCC1588E4E6EA6F610EC07A27C1D51F9.tmp' to 'E:/Unreal courses/Unreal_Portfolio/WarehouseWreckage/Content/MainMap.umap'
+[2024.06.20-16.31.13:672][866]LogFileHelpers: Saving map 'MainMap' took 0.051
+[2024.06.20-16.31.13:734][866]LogFileHelpers: InternalPromptForCheckoutAndSave took 138.830 ms (total: 582.121 ms)
+[2024.06.20-16.31.13:762][866]LogContentValidation: Display: Starting to validate 1 assets
+[2024.06.20-16.31.13:762][866]LogContentValidation: Enabled validators:
+[2024.06.20-16.31.13:762][866]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.06.20-16.31.13:762][866]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.06.20-16.31.13:762][866]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.06.20-16.31.13:762][866]LogContentValidation: Display: Validating asset /Game/MainMap.MainMap
+[2024.06.20-16.31.13:762][866]AssetCheck: /Game/MainMap Validating asset
+[2024.06.20-16.31.13:857][874]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.20-16.31.13:884][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMap" FILE="E:/Unreal courses/Unreal_Portfolio/WarehouseWreckage/Content/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.06.20-16.31.13:908][874]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2024.06.20-16.31.13:929][874]LogSavePackage: Moving output files for package: /Game/MainMap
+[2024.06.20-16.31.13:930][874]LogSavePackage: Moving 'E:/Unreal courses/Unreal_Portfolio/WarehouseWreckage/Saved/MainMapEED13F3B460FD9EB330CD6AD82D784C5.tmp' to 'E:/Unreal courses/Unreal_Portfolio/WarehouseWreckage/Content/MainMap.umap'
+[2024.06.20-16.31.13:935][874]LogFileHelpers: Saving map 'MainMap' took 0.052
+[2024.06.20-16.31.13:970][874]LogFileHelpers: InternalPromptForCheckoutAndSave took 113.583 ms (total: 695.704 ms)
+[2024.06.20-16.31.14:005][874]LogContentValidation: Display: Starting to validate 1 assets
+[2024.06.20-16.31.14:005][874]LogContentValidation: Enabled validators:
+[2024.06.20-16.31.14:005][874]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.06.20-16.31.14:005][874]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.06.20-16.31.14:005][874]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.06.20-16.31.14:005][874]LogContentValidation: Display: Validating asset /Game/MainMap.MainMap
+[2024.06.20-16.31.14:005][874]AssetCheck: /Game/MainMap Validating asset
+[2024.06.20-16.31.30:677][862]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.06.20-16.31.31:582][964]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.06.20-16.31.55:846][869]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.20-16.31.55:992][869]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.20-16.31.56:018][869]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2024.06.20-16.31.56:025][869]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007123s)
+[2024.06.20-16.31.56:025][869]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.007175s)
+[2024.06.20-16.31.56:037][869]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.06.20-16.31.56:039][869]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.06.20-16.31.56:040][869]LogPlayLevel: PIE: World Init took: (0.000999s)
+[2024.06.20-16.31.56:655][869]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.06.20-16.31.56:655][869]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.20-16.31.56:655][869]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.20-16.31.56:655][869]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.20-16.31.56:655][869]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.20-16.31.56:655][869]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.20-16.31.56:655][869]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.20-16.31.56:655][869]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.20-16.31.56:655][869]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.20-16.31.56:655][869]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.20-16.31.56:655][869]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.20-16.31.56:655][869]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.20-16.31.56:657][869]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.20-16.31.56:673][869]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Cloud Alpha S Chat)
+[2024.06.20-16.31.56:674][869]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.20-16.31.56:674][869]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.20-16.31.56:674][869]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.20-16.31.56:674][869]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.06.20-16.31.56:674][869]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.06.20-16.31.56:675][869]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.06.20-16.31.56:675][869]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.06.20-16.31.56:675][869]LogInit: FAudioDevice initialized with ID 3.
+[2024.06.20-16.31.56:675][869]LogAudio: Display: Audio Device (ID: 3) registered with world 'MainMap'.
+[2024.06.20-16.31.56:675][869]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.06.20-16.31.56:678][869]LogLoad: Game class is 'GameModeBase'
+[2024.06.20-16.31.56:681][869]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2024.06.20-18.31.56
+[2024.06.20-16.31.56:681][869]LogWorld: Bringing up level for play took: 0.002762
+[2024.06.20-16.31.56:683][869]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2024.06.20-16.31.56:685][869]LogBlueprintUserMessages: [MainMap_C_3] 20
+[2024.06.20-16.31.57:186][869]PIE: Server logged in
+[2024.06.20-16.31.57:187][869]PIE: Play in editor total start time 1.337 seconds.
+[2024.06.20-16.31.58:717][988]LogBlueprintUserMessages: [BP_Projectile_C_0] BP_Projectile0
+[2024.06.20-16.31.58:717][988]LogBlueprintUserMessages: [MainMap_C_3] 19
+[2024.06.20-16.31.58:934][ 14]LogBlueprintUserMessages: [BP_Projectile_C_1] BP_Projectile1
+[2024.06.20-16.31.58:934][ 14]LogBlueprintUserMessages: [MainMap_C_3] 18
+[2024.06.20-16.31.59:091][ 33]LogBlueprintUserMessages: [BP_Projectile_C_2] BP_Projectile2
+[2024.06.20-16.31.59:092][ 33]LogBlueprintUserMessages: [MainMap_C_3] 17
+[2024.06.20-16.31.59:258][ 53]LogBlueprintUserMessages: [BP_Projectile_C_3] BP_Projectile3
+[2024.06.20-16.31.59:258][ 53]LogBlueprintUserMessages: [MainMap_C_3] 16
+[2024.06.20-16.31.59:451][ 76]LogBlueprintUserMessages: [BP_Projectile_C_4] BP_Projectile4
+[2024.06.20-16.31.59:451][ 76]LogBlueprintUserMessages: [MainMap_C_3] 15
+[2024.06.20-16.31.59:609][ 95]LogBlueprintUserMessages: [BP_Projectile_C_5] BP_Projectile5
+[2024.06.20-16.31.59:609][ 95]LogBlueprintUserMessages: [MainMap_C_3] 14
+[2024.06.20-16.31.59:790][116]LogBlueprintUserMessages: [BP_Projectile_C_6] BP_Projectile6
+[2024.06.20-16.31.59:790][116]LogBlueprintUserMessages: [MainMap_C_3] 13
+[2024.06.20-16.31.59:950][135]LogBlueprintUserMessages: [BP_Projectile_C_7] BP_Projectile7
+[2024.06.20-16.31.59:950][135]LogBlueprintUserMessages: [MainMap_C_3] 12
+[2024.06.20-16.32.00:117][154]LogBlueprintUserMessages: [BP_Projectile_C_8] BP_Projectile8
+[2024.06.20-16.32.00:117][154]LogBlueprintUserMessages: [MainMap_C_3] 11
+[2024.06.20-16.32.00:271][172]LogBlueprintUserMessages: [BP_Projectile_C_9] BP_Projectile9
+[2024.06.20-16.32.00:271][172]LogBlueprintUserMessages: [MainMap_C_3] 10
+[2024.06.20-16.32.00:426][190]LogBlueprintUserMessages: [BP_Projectile_C_10] BP_Projectile10
+[2024.06.20-16.32.00:426][190]LogBlueprintUserMessages: [MainMap_C_3] 9
+[2024.06.20-16.32.00:594][210]LogBlueprintUserMessages: [BP_Projectile_C_11] BP_Projectile11
+[2024.06.20-16.32.00:594][210]LogBlueprintUserMessages: [MainMap_C_3] 8
+[2024.06.20-16.32.00:736][227]LogBlueprintUserMessages: [BP_Projectile_C_12] BP_Projectile12
+[2024.06.20-16.32.00:736][227]LogBlueprintUserMessages: [MainMap_C_3] 7
+[2024.06.20-16.32.00:894][246]LogBlueprintUserMessages: [BP_Projectile_C_13] BP_Projectile13
+[2024.06.20-16.32.00:894][246]LogBlueprintUserMessages: [MainMap_C_3] 6
+[2024.06.20-16.32.01:046][264]LogBlueprintUserMessages: [BP_Projectile_C_14] BP_Projectile14
+[2024.06.20-16.32.01:046][264]LogBlueprintUserMessages: [MainMap_C_3] 5
+[2024.06.20-16.32.01:196][282]LogBlueprintUserMessages: [BP_Projectile_C_15] BP_Projectile15
+[2024.06.20-16.32.01:196][282]LogBlueprintUserMessages: [MainMap_C_3] 4
+[2024.06.20-16.32.01:346][300]LogBlueprintUserMessages: [BP_Projectile_C_16] BP_Projectile16
+[2024.06.20-16.32.01:346][300]LogBlueprintUserMessages: [MainMap_C_3] 3
+[2024.06.20-16.32.01:513][320]LogBlueprintUserMessages: [BP_Projectile_C_17] BP_Projectile17
+[2024.06.20-16.32.01:513][320]LogBlueprintUserMessages: [MainMap_C_3] 2
+[2024.06.20-16.32.01:672][339]LogBlueprintUserMessages: [BP_Projectile_C_18] BP_Projectile18
+[2024.06.20-16.32.01:672][339]LogBlueprintUserMessages: [MainMap_C_3] 1
+[2024.06.20-16.32.01:822][357]LogBlueprintUserMessages: [BP_Projectile_C_19] BP_Projectile19
+[2024.06.20-16.32.01:822][357]LogBlueprintUserMessages: [MainMap_C_3] 0
+[2024.06.20-16.32.02:221][405]LogBlueprintUserMessages: [MainMap_C_3] Out of Ammo
+[2024.06.20-16.32.03:080][508]LogBlueprintUserMessages: [MainMap_C_3] Out of Ammo
+[2024.06.20-16.32.03:322][537]LogBlueprintUserMessages: [MainMap_C_3] Out of Ammo
+[2024.06.20-16.32.03:505][559]LogBlueprintUserMessages: [MainMap_C_3] Out of Ammo
+[2024.06.20-16.32.04:294][645]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.20-16.32.04:294][645]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2024.06.20-16.32.04:294][645]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2024.06.20-16.32.04:295][645]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.20-16.32.04:295][645]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.06.20-16.32.04:295][645]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.06.20-16.32.04:298][645]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.20-16.32.04:302][645]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.20-16.32.04:313][645]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.20-16.32.04:313][645]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.06.20-16.32.04:313][645]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.06.20-16.32.04:315][645]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.06.20-16.32.04:322][645]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.06.20-16.32.04:890][646]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2024.06.20-16.33.02:097][688]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.20-16.33.02:133][688]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMap" FILE="E:/Unreal courses/Unreal_Portfolio/WarehouseWreckage/Content/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.06.20-16.33.02:163][688]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.06.20-16.33.02:191][688]LogSavePackage: Moving output files for package: /Game/MainMap
+[2024.06.20-16.33.02:192][688]LogSavePackage: Moving 'E:/Unreal courses/Unreal_Portfolio/WarehouseWreckage/Saved/MainMap2FF897D54C69DBA09A6458B818B89A0F.tmp' to 'E:/Unreal courses/Unreal_Portfolio/WarehouseWreckage/Content/MainMap.umap'
+[2024.06.20-16.33.02:202][688]LogFileHelpers: Saving map 'MainMap' took 0.069
+[2024.06.20-16.33.02:263][688]LogFileHelpers: InternalPromptForCheckoutAndSave took 165.725 ms (total: 861.430 ms)
+[2024.06.20-16.33.02:295][688]LogContentValidation: Display: Starting to validate 1 assets
+[2024.06.20-16.33.02:295][688]LogContentValidation: Enabled validators:
+[2024.06.20-16.33.02:295][688]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.06.20-16.33.02:295][688]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.06.20-16.33.02:295][688]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.06.20-16.33.02:295][688]LogContentValidation: Display: Validating asset /Game/MainMap.MainMap
+[2024.06.20-16.33.02:295][688]AssetCheck: /Game/MainMap Validating asset
+[2024.06.20-16.33.02:747][736]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
