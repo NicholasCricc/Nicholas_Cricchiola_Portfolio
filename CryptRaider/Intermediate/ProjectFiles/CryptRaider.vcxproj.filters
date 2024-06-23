@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\CryptRaider.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CryptRaider.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CryptRaiderEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\CryptRaider">
+      <UniqueIdentifier>{B1CCF47D-A81A-3537-B976-477CAC6760B4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CryptRaider\CryptRaider.Build.cs">
+      <Filter>Source\CryptRaider</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\CryptRaider\CryptRaider.cpp">
+      <Filter>Source\CryptRaider</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CryptRaider\CryptRaider.h">
+      <Filter>Source\CryptRaider</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CryptRaider\CryptRaiderCharacter.cpp">
+      <Filter>Source\CryptRaider</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CryptRaider\CryptRaiderCharacter.h">
+      <Filter>Source\CryptRaider</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CryptRaider\CryptRaiderGameMode.cpp">
+      <Filter>Source\CryptRaider</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CryptRaider\CryptRaiderGameMode.h">
+      <Filter>Source\CryptRaider</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CryptRaider\CryptRaiderPlayerController.cpp">
+      <Filter>Source\CryptRaider</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CryptRaider\CryptRaiderPlayerController.h">
+      <Filter>Source\CryptRaider</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CryptRaider\CryptRaiderProjectile.cpp">
+      <Filter>Source\CryptRaider</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CryptRaider\CryptRaiderProjectile.h">
+      <Filter>Source\CryptRaider</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CryptRaider\TP_PickUpComponent.cpp">
+      <Filter>Source\CryptRaider</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CryptRaider\TP_PickUpComponent.h">
+      <Filter>Source\CryptRaider</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CryptRaider\TP_WeaponComponent.cpp">
+      <Filter>Source\CryptRaider</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CryptRaider\TP_WeaponComponent.h">
+      <Filter>Source\CryptRaider</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
