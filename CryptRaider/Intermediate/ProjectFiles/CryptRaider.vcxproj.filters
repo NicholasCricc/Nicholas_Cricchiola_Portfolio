@@ -11,6 +11,7 @@
     <None Include="..\..\Source\CryptRaiderEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -63,6 +64,12 @@
       <Filter>Source\CryptRaider</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\CryptRaider\CryptRaiderProjectile.h">
+      <Filter>Source\CryptRaider</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CryptRaider\Mover.cpp">
+      <Filter>Source\CryptRaider</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CryptRaider\Mover.h">
       <Filter>Source\CryptRaider</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\CryptRaider\TP_PickUpComponent.cpp">
