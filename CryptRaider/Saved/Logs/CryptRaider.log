@@ -1690,3 +1690,6 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2024.07.28-20.39.47:696][452]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
 [2024.07.28-20.39.47:696][452]LogShaderCompilers: Display: Material Cache Hits: 17 (14%)
 [2024.07.28-20.39.47:696][452]LogShaderCompilers: Display: ================================================
+[2024.07.28-20.40.52:351][153]LogSlate: Window 'Project Settings' being destroyed
+[2024.07.28-20.40.52:357][153]LogSlate: Window 'Project Settings' being destroyed
+[2024.07.28-20.40.54:875][379]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
