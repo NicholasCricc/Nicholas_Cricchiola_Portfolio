@@ -281,8 +281,8 @@
 /I "Editor\SceneDepthPickerMode\Public"
 /I "..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationEditMode\UHT"
 /I "Editor\AnimationEditMode\Public"
-/I "E:\Unreal courses\Unreal_Portfolio\ObstacleAssault\Intermediate\Build\Win64\UnrealEditor\Inc\ObstacleAssault\UHT"
-/I "E:\Unreal courses\Unreal_Portfolio\ObstacleAssault\Source"
+/I "C:\Users\nicho\OneDrive\portofolio\Nicholas_Cricchiola_Portfolio\ObstacleAssault\Intermediate\Build\Win64\UnrealEditor\Inc\ObstacleAssault\UHT"
+/I "C:\Users\nicho\OneDrive\portofolio\Nicholas_Cricchiola_Portfolio\ObstacleAssault\Source"
 /external:W0
 /external:I "ThirdParty\LibTiff\Source\Win64"
 /external:I "ThirdParty\LibTiff\Source"

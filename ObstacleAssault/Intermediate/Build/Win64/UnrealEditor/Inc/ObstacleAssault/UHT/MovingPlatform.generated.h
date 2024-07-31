@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define OBSTACLEASSAULT_MovingPlatform_generated_h
 
-#define FID_ObstacleAssault_Source_ObstacleAssault_MovingPlatform_h_12_INCLASS_NO_PURE_DECLS \
+#define FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_ObstacleAssault_Source_ObstacleAssault_MovingPlatform_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMovingPlatform(); \
 	friend struct Z_Construct_UClass_AMovingPlatform_Statics; \
@@ -23,7 +23,7 @@ public: \
 	DECLARE_SERIALIZER(AMovingPlatform)
 
 
-#define FID_ObstacleAssault_Source_ObstacleAssault_MovingPlatform_h_12_ENHANCED_CONSTRUCTORS \
+#define FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_ObstacleAssault_Source_ObstacleAssault_MovingPlatform_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	AMovingPlatform(AMovingPlatform&&); \
@@ -35,12 +35,12 @@ public: \
 	NO_API virtual ~AMovingPlatform();
 
 
-#define FID_ObstacleAssault_Source_ObstacleAssault_MovingPlatform_h_9_PROLOG
-#define FID_ObstacleAssault_Source_ObstacleAssault_MovingPlatform_h_12_GENERATED_BODY \
+#define FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_ObstacleAssault_Source_ObstacleAssault_MovingPlatform_h_9_PROLOG
+#define FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_ObstacleAssault_Source_ObstacleAssault_MovingPlatform_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_ObstacleAssault_Source_ObstacleAssault_MovingPlatform_h_12_INCLASS_NO_PURE_DECLS \
-	FID_ObstacleAssault_Source_ObstacleAssault_MovingPlatform_h_12_ENHANCED_CONSTRUCTORS \
+	FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_ObstacleAssault_Source_ObstacleAssault_MovingPlatform_h_12_INCLASS_NO_PURE_DECLS \
+	FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_ObstacleAssault_Source_ObstacleAssault_MovingPlatform_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -48,7 +48,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> OBSTACLEASSAULT_API UClass* StaticClass<class AMovingPlatform>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_ObstacleAssault_Source_ObstacleAssault_MovingPlatform_h
+#define CURRENT_FILE_ID FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_ObstacleAssault_Source_ObstacleAssault_MovingPlatform_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
