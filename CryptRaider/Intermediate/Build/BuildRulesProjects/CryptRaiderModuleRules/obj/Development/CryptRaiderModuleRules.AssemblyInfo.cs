@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CryptRaiderModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e56e9a3a45906eafd45cb2aa7bdb0c64474b3327")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61abb0fab195e70ed6b8008889b1b363ee3da57d")]
 [assembly: System.Reflection.AssemblyProductAttribute("CryptRaiderModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CryptRaiderModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
