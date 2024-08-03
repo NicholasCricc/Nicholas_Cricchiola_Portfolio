@@ -29,6 +29,13 @@ void UMover::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponent
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 	
-	UE_LOG(LogTemp, Display, TEXT("Mover is ticking"));
+	AActor* Owner = GetOwner();
+
+	float MyFloat = 5;
+	float* YourFloat = &MyFloat;
+	float FloatValue = *YourFloat;
+	UE_LOG(LogTemp, Display, TEXT("YourFloatValue: %f"), FloatValue);
+
+	UE_LOG(LogTemp, Display, TEXT("Mover owner address: %u"), Owner);
 }
 
