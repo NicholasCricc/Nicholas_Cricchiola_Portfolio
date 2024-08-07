@@ -1,4 +1,4 @@
-"C:\Users\nicho\OneDrive\portofolio\Nicholas_Cricchiola_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\CryptRaiderEditor\Development\Engine\SharedPCH.Engine.Project.ValApi.Cpp20.cpp"
+"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\CryptRaiderEditor\Development\Engine\SharedPCH.Engine.Project.ValApi.Cpp20.cpp"
 /I "."
 /I "..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\UHT"
 /I "Runtime\Engine\Classes"
@@ -290,10 +290,10 @@
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
-/Yc"C:\Users\nicho\OneDrive\portofolio\Nicholas_Cricchiola_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\CryptRaiderEditor\Development\Engine\SharedPCH.Engine.Project.ValApi.Cpp20.h"
-/Fp"C:\Users\nicho\OneDrive\portofolio\Nicholas_Cricchiola_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\CryptRaiderEditor\Development\Engine\SharedPCH.Engine.Project.ValApi.Cpp20.h.pch"
-/Fo"C:\Users\nicho\OneDrive\portofolio\Nicholas_Cricchiola_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\CryptRaiderEditor\Development\Engine\SharedPCH.Engine.Project.ValApi.Cpp20.h.obj"
-/sourceDependencies "C:\Users\nicho\OneDrive\portofolio\Nicholas_Cricchiola_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\CryptRaiderEditor\Development\Engine\SharedPCH.Engine.Project.ValApi.Cpp20.h.dep.json"
+/Yc"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\CryptRaiderEditor\Development\Engine\SharedPCH.Engine.Project.ValApi.Cpp20.h"
+/Fp"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\CryptRaiderEditor\Development\Engine\SharedPCH.Engine.Project.ValApi.Cpp20.h.pch"
+/Fo"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\CryptRaiderEditor\Development\Engine\SharedPCH.Engine.Project.ValApi.Cpp20.h.obj"
+/sourceDependencies "E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\CryptRaiderEditor\Development\Engine\SharedPCH.Engine.Project.ValApi.Cpp20.h.dep.json"
 /Zc:inline
 /nologo
 /Oi
