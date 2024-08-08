@@ -8,7 +8,7 @@
 #include "EnhancedInputSubsystems.h"
 #include "InputActionValue.h"
 #include "Engine/LocalPlayer.h"
-#include "Grabber.h"  // Include the Grabber header
+//#include "Grabber.h"  // Include the Grabber header
 
 DEFINE_LOG_CATEGORY(LogTemplateCharacter);
 
@@ -36,8 +36,8 @@ ACryptRaiderCharacter::ACryptRaiderCharacter()
     Mesh1P->SetRelativeLocation(FVector(-30.f, 0.f, -150.f));
 
     // Create and attach the Grabber component
-    Grabber = CreateDefaultSubobject<UGrabber>(TEXT("Grabber"));
-    Grabber->SetupAttachment(FirstPersonCameraComponent);
+    //Grabber = CreateDefaultSubobject<UGrabber>(TEXT("Grabber"));
+    //Grabber->SetupAttachment(FirstPersonCameraComponent);
 }
 
 void ACryptRaiderCharacter::BeginPlay()
@@ -46,10 +46,10 @@ void ACryptRaiderCharacter::BeginPlay()
     Super::BeginPlay();
     
     // Ensure the Grabber component is initialized correctly
-    if (Grabber)
-    {
-        UE_LOG(LogTemplateCharacter, Warning, TEXT("Grabber Component Attached to %s"), *GetName());
-    }
+    //if (Grabber)
+    //{
+        //UE_LOG(LogTemplateCharacter, Warning, TEXT("Grabber Component Attached to %s"), *GetName());
+    //}
 }
 
 //////////////////////////////////////////////////////////////////////////// Input

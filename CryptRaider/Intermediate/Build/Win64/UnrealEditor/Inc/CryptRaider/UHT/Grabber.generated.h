@@ -14,6 +14,11 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define CRYPTRAIDER_Grabber_generated_h
 
+#define FID_CryptRaider_Source_CryptRaider_Grabber_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execRelease); \
+	DECLARE_FUNCTION(execGrab);
+
+
 #define FID_CryptRaider_Source_CryptRaider_Grabber_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUGrabber(); \
@@ -39,6 +44,7 @@ public: \
 #define FID_CryptRaider_Source_CryptRaider_Grabber_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	FID_CryptRaider_Source_CryptRaider_Grabber_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
 	FID_CryptRaider_Source_CryptRaider_Grabber_h_13_INCLASS_NO_PURE_DECLS \
 	FID_CryptRaider_Source_CryptRaider_Grabber_h_13_ENHANCED_CONSTRUCTORS \
 private: \

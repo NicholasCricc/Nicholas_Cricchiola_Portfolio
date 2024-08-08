@@ -3,7 +3,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "Logging/LogMacros.h"
-#include "Grabber.h"  // Include the Grabber header
+//#include "Grabber.h"  // Include the Grabber header
 #include "CryptRaiderCharacter.generated.h"
 
 class UInputComponent;
@@ -37,8 +37,8 @@ class ACryptRaiderCharacter : public ACharacter
     UInputAction* MoveAction;
 
     // Grabber component
-    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Component, meta = (AllowPrivateAccess = "true"))
-    UGrabber* Grabber;
+    //UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Component, meta = (AllowPrivateAccess = "true"))
+    //UGrabber* Grabber;
 
 public:
     ACryptRaiderCharacter();
