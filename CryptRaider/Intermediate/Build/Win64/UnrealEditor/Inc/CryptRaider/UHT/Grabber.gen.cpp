@@ -107,9 +107,14 @@ struct Z_Construct_UClass_UGrabber_Statics
 		{ "Category", "Grabber" },
 		{ "ModuleRelativePath", "Grabber.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HoldDistance_MetaData[] = {
+		{ "Category", "Grabber" },
+		{ "ModuleRelativePath", "Grabber.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_MaxGrabDistance;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_GrabRadius;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_HoldDistance;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
@@ -124,9 +129,11 @@ struct Z_Construct_UClass_UGrabber_Statics
 };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UGrabber_Statics::NewProp_MaxGrabDistance = { "MaxGrabDistance", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGrabber, MaxGrabDistance), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MaxGrabDistance_MetaData), NewProp_MaxGrabDistance_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UGrabber_Statics::NewProp_GrabRadius = { "GrabRadius", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGrabber, GrabRadius), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_GrabRadius_MetaData), NewProp_GrabRadius_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UGrabber_Statics::NewProp_HoldDistance = { "HoldDistance", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGrabber, HoldDistance), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_HoldDistance_MetaData), NewProp_HoldDistance_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UGrabber_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGrabber_Statics::NewProp_MaxGrabDistance,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGrabber_Statics::NewProp_GrabRadius,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGrabber_Statics::NewProp_HoldDistance,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UGrabber_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_UGrabber_Statics::DependentSingletons[])() = {
@@ -169,10 +176,10 @@ UGrabber::~UGrabber() {}
 struct Z_CompiledInDeferFile_FID_CryptRaider_Source_CryptRaider_Grabber_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UGrabber, UGrabber::StaticClass, TEXT("UGrabber"), &Z_Registration_Info_UClass_UGrabber, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGrabber), 343368985U) },
+		{ Z_Construct_UClass_UGrabber, UGrabber::StaticClass, TEXT("UGrabber"), &Z_Registration_Info_UClass_UGrabber, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGrabber), 1505189259U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CryptRaider_Source_CryptRaider_Grabber_h_2116790472(TEXT("/Script/CryptRaider"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CryptRaider_Source_CryptRaider_Grabber_h_43916079(TEXT("/Script/CryptRaider"),
 	Z_CompiledInDeferFile_FID_CryptRaider_Source_CryptRaider_Grabber_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_CryptRaider_Source_CryptRaider_Grabber_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
