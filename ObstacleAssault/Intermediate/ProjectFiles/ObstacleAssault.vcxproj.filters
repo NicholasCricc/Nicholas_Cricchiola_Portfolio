@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ObstacleAssault.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ObstacleAssault.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ObstacleAssaultEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.ignore" />
+    <None Include="..\..\Link to Source Assets.txt" />
+    <None Include="..\..\ObstacleAssault.code-workspace" />
+    <None Include="..\..\SCK_Casual01.png" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\HoloLens">
+      <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\HoloLens\HoloLensEngine.ini">
+      <Filter>Config\HoloLens</Filter>
+    </None>
+    <Filter Include="Source\ObstacleAssault">
+      <UniqueIdentifier>{7510F764-2898-357B-8D6A-F4D6F89811EC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ObstacleAssault\MovingPlatform.cpp">
+      <Filter>Source\ObstacleAssault</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleAssault\MovingPlatform.h">
+      <Filter>Source\ObstacleAssault</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\ObstacleAssault\ObstacleAssault.Build.cs">
+      <Filter>Source\ObstacleAssault</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ObstacleAssault\ObstacleAssault.cpp">
+      <Filter>Source\ObstacleAssault</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleAssault\ObstacleAssault.h">
+      <Filter>Source\ObstacleAssault</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
