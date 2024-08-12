@@ -77,20 +77,19 @@ template<> CRYPTRAIDER_API UClass* StaticClass<UTriggerComponent>()
 {
 	return UTriggerComponent::StaticClass();
 }
-UTriggerComponent::UTriggerComponent(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 DEFINE_VTABLE_PTR_HELPER_CTOR(UTriggerComponent);
 UTriggerComponent::~UTriggerComponent() {}
 // End Class UTriggerComponent
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_CryptRaider_Source_CryptRaider_TriggerComponent_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_CryptRaider_Source_CryptRaider_TriggerComponent_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_UTriggerComponent, UTriggerComponent::StaticClass, TEXT("UTriggerComponent"), &Z_Registration_Info_UClass_UTriggerComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UTriggerComponent), 2442952927U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CryptRaider_Source_CryptRaider_TriggerComponent_h_526678326(TEXT("/Script/CryptRaider"),
-	Z_CompiledInDeferFile_FID_CryptRaider_Source_CryptRaider_TriggerComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_CryptRaider_Source_CryptRaider_TriggerComponent_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_CryptRaider_Source_CryptRaider_TriggerComponent_h_526678326(TEXT("/Script/CryptRaider"),
+	Z_CompiledInDeferFile_FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_CryptRaider_Source_CryptRaider_TriggerComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_CryptRaider_Source_CryptRaider_TriggerComponent_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration
