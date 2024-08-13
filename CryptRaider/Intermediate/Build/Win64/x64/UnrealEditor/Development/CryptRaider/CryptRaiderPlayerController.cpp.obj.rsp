@@ -1,11 +1,11 @@
-"C:\Users\nicho\OneDrive\portofolio\Nicholas_Cricchiola_Portfolio\CryptRaider\Source\CryptRaider\CryptRaiderPlayerController.cpp"
-/FI"C:\Users\nicho\OneDrive\portofolio\Nicholas_Cricchiola_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\CryptRaiderEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/FI"C:\Users\nicho\OneDrive\portofolio\Nicholas_Cricchiola_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\Definitions.CryptRaider.h"
-/Yu"C:\Users\nicho\OneDrive\portofolio\Nicholas_Cricchiola_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\CryptRaiderEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/Fp"C:\Users\nicho\OneDrive\portofolio\Nicholas_Cricchiola_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\CryptRaiderEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
-/Fo"C:\Users\nicho\OneDrive\portofolio\Nicholas_Cricchiola_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\CryptRaiderPlayerController.cpp.obj"
-/sourceDependencies "C:\Users\nicho\OneDrive\portofolio\Nicholas_Cricchiola_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\CryptRaiderPlayerController.cpp.dep.json"
-@"C:\Users\nicho\OneDrive\portofolio\Nicholas_Cricchiola_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\CryptRaider.Shared.rsp"
+"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Source\CryptRaider\CryptRaiderPlayerController.cpp"
+/FI"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\CryptRaiderEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/FI"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\Definitions.CryptRaider.h"
+/Yu"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\CryptRaiderEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/Fp"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\CryptRaiderEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
+/Fo"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\CryptRaiderPlayerController.cpp.obj"
+/sourceDependencies "E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\CryptRaiderPlayerController.cpp.dep.json"
+@"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\CryptRaider.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi

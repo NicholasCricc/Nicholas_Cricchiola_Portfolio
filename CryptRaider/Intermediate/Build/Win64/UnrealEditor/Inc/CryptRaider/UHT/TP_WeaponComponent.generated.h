@@ -15,13 +15,13 @@ class ACryptRaiderCharacter;
 #endif
 #define CRYPTRAIDER_TP_WeaponComponent_generated_h
 
-#define FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_CryptRaider_Source_CryptRaider_TP_WeaponComponent_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_CryptRaider_Source_CryptRaider_TP_WeaponComponent_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execEndPlay); \
 	DECLARE_FUNCTION(execFire); \
 	DECLARE_FUNCTION(execAttachWeapon);
 
 
-#define FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_CryptRaider_Source_CryptRaider_TP_WeaponComponent_h_14_INCLASS_NO_PURE_DECLS \
+#define FID_CryptRaider_Source_CryptRaider_TP_WeaponComponent_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUTP_WeaponComponent(); \
 	friend struct Z_Construct_UClass_UTP_WeaponComponent_Statics; \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(UTP_WeaponComponent)
 
 
-#define FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_CryptRaider_Source_CryptRaider_TP_WeaponComponent_h_14_ENHANCED_CONSTRUCTORS \
+#define FID_CryptRaider_Source_CryptRaider_TP_WeaponComponent_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	UTP_WeaponComponent(UTP_WeaponComponent&&); \
@@ -42,13 +42,13 @@ public: \
 	NO_API virtual ~UTP_WeaponComponent();
 
 
-#define FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_CryptRaider_Source_CryptRaider_TP_WeaponComponent_h_11_PROLOG
-#define FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_CryptRaider_Source_CryptRaider_TP_WeaponComponent_h_14_GENERATED_BODY \
+#define FID_CryptRaider_Source_CryptRaider_TP_WeaponComponent_h_11_PROLOG
+#define FID_CryptRaider_Source_CryptRaider_TP_WeaponComponent_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_CryptRaider_Source_CryptRaider_TP_WeaponComponent_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_CryptRaider_Source_CryptRaider_TP_WeaponComponent_h_14_INCLASS_NO_PURE_DECLS \
-	FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_CryptRaider_Source_CryptRaider_TP_WeaponComponent_h_14_ENHANCED_CONSTRUCTORS \
+	FID_CryptRaider_Source_CryptRaider_TP_WeaponComponent_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_CryptRaider_Source_CryptRaider_TP_WeaponComponent_h_14_INCLASS_NO_PURE_DECLS \
+	FID_CryptRaider_Source_CryptRaider_TP_WeaponComponent_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -56,7 +56,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> CRYPTRAIDER_API UClass* StaticClass<class UTP_WeaponComponent>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_CryptRaider_Source_CryptRaider_TP_WeaponComponent_h
+#define CURRENT_FILE_ID FID_CryptRaider_Source_CryptRaider_TP_WeaponComponent_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

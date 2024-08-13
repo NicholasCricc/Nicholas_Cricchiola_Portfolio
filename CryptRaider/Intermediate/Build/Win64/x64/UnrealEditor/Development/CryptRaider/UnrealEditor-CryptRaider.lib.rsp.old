@@ -1,0 +1,33 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-CryptRaider.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\CryptRaiderEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\CryptRaider.init.gen.cpp.obj"
+"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\CryptRaiderCharacter.gen.cpp.obj"
+"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\CryptRaiderGameMode.gen.cpp.obj"
+"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\CryptRaiderPlayerController.gen.cpp.obj"
+"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\CryptRaiderProjectile.gen.cpp.obj"
+"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\Grabber.gen.cpp.obj"
+"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\Grabber2.gen.cpp.obj"
+"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\Mover.gen.cpp.obj"
+"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\TP_PickUpComponent.gen.cpp.obj"
+"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\TP_WeaponComponent.gen.cpp.obj"
+"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\TriggerComponent.gen.cpp.obj"
+"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\CryptRaider.cpp.obj"
+"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\CryptRaiderCharacter.cpp.obj"
+"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\CryptRaiderGameMode.cpp.obj"
+"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\CryptRaiderPlayerController.cpp.obj"
+"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\CryptRaiderProjectile.cpp.obj"
+"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\Grabber.cpp.obj"
+"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\Grabber2.cpp.obj"
+"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\Mover.cpp.obj"
+"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\TP_PickUpComponent.cpp.obj"
+"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\TP_WeaponComponent.cpp.obj"
+"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\TriggerComponent.cpp.obj"
+"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\Default.rc2.res"
+/OUT:"E:\Unreal courses\Unreal_Portfolio\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\UnrealEditor-CryptRaider.lib"

@@ -9,12 +9,17 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UMover;
 #ifdef CRYPTRAIDER_TriggerComponent_generated_h
 #error "TriggerComponent.generated.h already included, missing '#pragma once' in TriggerComponent.h"
 #endif
 #define CRYPTRAIDER_TriggerComponent_generated_h
 
-#define FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_CryptRaider_Source_CryptRaider_TriggerComponent_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_CryptRaider_Source_CryptRaider_TriggerComponent_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execSetMover);
+
+
+#define FID_CryptRaider_Source_CryptRaider_TriggerComponent_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUTriggerComponent(); \
 	friend struct Z_Construct_UClass_UTriggerComponent_Statics; \
@@ -23,7 +28,7 @@ public: \
 	DECLARE_SERIALIZER(UTriggerComponent)
 
 
-#define FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_CryptRaider_Source_CryptRaider_TriggerComponent_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_CryptRaider_Source_CryptRaider_TriggerComponent_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	UTriggerComponent(UTriggerComponent&&); \
@@ -35,12 +40,13 @@ public: \
 	NO_API virtual ~UTriggerComponent();
 
 
-#define FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_CryptRaider_Source_CryptRaider_TriggerComponent_h_12_PROLOG
-#define FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_CryptRaider_Source_CryptRaider_TriggerComponent_h_15_GENERATED_BODY \
+#define FID_CryptRaider_Source_CryptRaider_TriggerComponent_h_13_PROLOG
+#define FID_CryptRaider_Source_CryptRaider_TriggerComponent_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_CryptRaider_Source_CryptRaider_TriggerComponent_h_15_INCLASS_NO_PURE_DECLS \
-	FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_CryptRaider_Source_CryptRaider_TriggerComponent_h_15_ENHANCED_CONSTRUCTORS \
+	FID_CryptRaider_Source_CryptRaider_TriggerComponent_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_CryptRaider_Source_CryptRaider_TriggerComponent_h_16_INCLASS_NO_PURE_DECLS \
+	FID_CryptRaider_Source_CryptRaider_TriggerComponent_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -48,7 +54,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> CRYPTRAIDER_API UClass* StaticClass<class UTriggerComponent>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_CryptRaider_Source_CryptRaider_TriggerComponent_h
+#define CURRENT_FILE_ID FID_CryptRaider_Source_CryptRaider_TriggerComponent_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
