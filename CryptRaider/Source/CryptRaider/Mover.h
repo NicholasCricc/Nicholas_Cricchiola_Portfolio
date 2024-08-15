@@ -25,6 +25,7 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 	void SetShouldMove(bool ShouldMove);
+	
 
 private:
 	UPROPERTY(EditAnywhere)
