@@ -1157,3 +1157,290 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2024.08.15-15.42.28:395][528]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2024.08.15-15.42.28:395][528]LogContentValidation: Display: Validating asset /Game/ComponentsActor.ComponentsActor
 [2024.08.15-15.42.28:395][528]AssetCheck: /Game/ComponentsActor Validating asset
+[2024.08.15-15.44.49:409][220]LogStaticMesh: Display: Building static mesh SM_TankBase (Required Memory Estimate: 2.675008 MB)...
+[2024.08.15-15.44.49:409][220]LogTexture: Display: Building textures: /Game/Assets/Textures/T_ColourGrid.T_ColourGrid (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 10.395709 MB), EncodeSpeed: Fast
+[2024.08.15-15.44.49:434][220]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/Meshes/SM_TankBase.SM_TankBase
+[2024.08.15-15.44.49:456][222]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Engine/Transient.World_2'.
+[2024.08.15-15.44.51:627][443]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Engine/Transient.World_3'.
+[2024.08.15-15.44.55:752][935]LogStaticMesh: Display: Building static mesh SM_TankTurret (Required Memory Estimate: 1.069464 MB)...
+[2024.08.15-15.44.55:759][935]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Meshes/SM_TankTurret.SM_TankTurret
+[2024.08.15-15.45.05:168][ 29]LogShaderCompilers: Display: ================================================
+[2024.08.15-15.45.05:168][ 29]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.08.15-15.45.05:168][ 29]LogShaderCompilers: Display: Total job queries 35, among them cache hits 6 (17.14%), DDC hits 25 (71.43%), Duplicates 0 (0.00%)
+[2024.08.15-15.45.05:168][ 29]LogShaderCompilers: Display: Tracking 29 distinct input hashes that result in 23 distinct outputs (79.31%)
+[2024.08.15-15.45.05:168][ 29]LogShaderCompilers: Display: RAM used: 109.32 KiB of 819.20 MiB budget. Usage: 0.01%
+[2024.08.15-15.45.05:168][ 29]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.08.15-15.45.05:170][ 29]LogShaderCompilers: Display: Shaders Compiled: 4
+[2024.08.15-15.45.05:170][ 29]LogShaderCompilers: Display: Jobs assigned 4, completed 4 (100%)
+[2024.08.15-15.45.05:170][ 29]LogShaderCompilers: Display: Time job spent in pending queue: average 0.03 s, longest 0.03 s
+[2024.08.15-15.45.05:170][ 29]LogShaderCompilers: Display: Job execution time: average 1.95 s, max 2.08 s
+[2024.08.15-15.45.05:170][ 29]LogShaderCompilers: Display: Job life time (pending + execution): average 1.99 s, max 2.11
+[2024.08.15-15.45.05:170][ 29]LogShaderCompilers: Display: Shader code size: average 5.065 KiB, min 4.172 KiB, max 5.887 KiB
+[2024.08.15-15.45.05:170][ 29]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.11 s
+[2024.08.15-15.45.05:170][ 29]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2024.08.15-15.45.05:170][ 29]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.08.15-15.45.05:170][ 29]LogShaderCompilers: Display: Average processing rate: 1.89 jobs/sec
+[2024.08.15-15.45.05:170][ 29]LogShaderCompilers: Display: Total thread time: 2.481 s
+[2024.08.15-15.45.05:170][ 29]LogShaderCompilers: Display: Total thread preprocess time: 0.442 s
+[2024.08.15-15.45.05:170][ 29]LogShaderCompilers: Display: Percentage time preprocessing: 17.83%
+[2024.08.15-15.45.05:170][ 29]LogShaderCompilers: Display: Effective parallelization: 1.17 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2024.08.15-15.45.05:170][ 29]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.08.15-15.45.05:170][ 29]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.75 sec, max 0.75 sec, min 0.75 sec)
+[2024.08.15-15.45.05:170][ 29]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 0.49 sec, max 0.50 sec, min 0.48 sec)
+[2024.08.15-15.45.05:170][ 29]LogShaderCompilers: Display:                                             FLightFunctionPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.08.15-15.45.05:170][ 29]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.08.15-15.45.05:170][ 29]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.08.15-15.45.05:170][ 29]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.08.15-15.45.05:170][ 29]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 60.37% of total time (compiled    2 times, average 0.75 sec, max 0.75 sec, min 0.75 sec)
+[2024.08.15-15.45.05:170][ 29]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 39.63% of total time (compiled    2 times, average 0.49 sec, max 0.50 sec, min 0.48 sec)
+[2024.08.15-15.45.05:170][ 29]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.08.15-15.45.05:170][ 29]LogShaderCompilers: Display:                                                  FVelocityPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.08.15-15.45.05:170][ 29]LogShaderCompilers: Display:                                                  FVelocityVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.08.15-15.45.05:170][ 29]LogShaderCompilers: Display: === Material stats ===
+[2024.08.15-15.45.05:170][ 29]LogShaderCompilers: Display: Materials Cooked:        0
+[2024.08.15-15.45.05:170][ 29]LogShaderCompilers: Display: Materials Translated:    111
+[2024.08.15-15.45.05:170][ 29]LogShaderCompilers: Display: Material Total Translate Time: 0.07 s
+[2024.08.15-15.45.05:170][ 29]LogShaderCompilers: Display: Material Translation Only: 0.02 s (37%)
+[2024.08.15-15.45.05:170][ 29]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2024.08.15-15.45.05:170][ 29]LogShaderCompilers: Display: Material Cache Hits: 15 (14%)
+[2024.08.15-15.45.05:170][ 29]LogShaderCompilers: Display: ================================================
+[2024.08.15-15.46.05:500][458]LogEditorTransaction: Undo Modify Component(s)
+[2024.08.15-15.46.23:806][582]LogEditorTransaction: Undo Modify Component Scale
+[2024.08.15-15.46.25:344][725]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.15-15.46.25:373][725]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ComponentsActor] ([2] browsable assets)...
+[2024.08.15-15.46.25:377][725]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ComponentsActor.ComponentsActor]
+[2024.08.15-15.46.25:377][725]OBJ SavePackage: Finished generating thumbnails for package [/Game/ComponentsActor]
+[2024.08.15-15.46.25:377][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ComponentsActor" FILE="E:/Unreal courses/Unreal_Portfolio/ToonTanks/Content/ComponentsActor.uasset" SILENT=true
+[2024.08.15-15.46.25:383][725]LogSavePackage: Moving output files for package: /Game/ComponentsActor
+[2024.08.15-15.46.25:384][725]LogSavePackage: Moving 'E:/Unreal courses/Unreal_Portfolio/ToonTanks/Saved/ComponentsActor2AB06418442209D6B0658F8265E25208.tmp' to 'E:/Unreal courses/Unreal_Portfolio/ToonTanks/Content/ComponentsActor.uasset'
+[2024.08.15-15.46.25:419][725]LogFileHelpers: InternalPromptForCheckoutAndSave took 74.874 ms (total: 121.236 ms)
+[2024.08.15-15.46.25:444][725]LogContentValidation: Display: Starting to validate 1 assets
+[2024.08.15-15.46.25:444][725]LogContentValidation: Enabled validators:
+[2024.08.15-15.46.25:444][725]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.08.15-15.46.25:444][725]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.08.15-15.46.25:444][725]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.08.15-15.46.25:444][725]LogContentValidation: Display: Validating asset /Game/ComponentsActor.ComponentsActor
+[2024.08.15-15.46.25:444][725]AssetCheck: /Game/ComponentsActor Validating asset
+[2024.08.15-15.46.26:146][803]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.08.15-15.46.26:814][881]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.15-15.46.26:838][881]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ComponentsActor] ([2] browsable assets)...
+[2024.08.15-15.46.26:842][881]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ComponentsActor.ComponentsActor]
+[2024.08.15-15.46.26:842][881]OBJ SavePackage: Finished generating thumbnails for package [/Game/ComponentsActor]
+[2024.08.15-15.46.26:842][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ComponentsActor" FILE="E:/Unreal courses/Unreal_Portfolio/ToonTanks/Content/ComponentsActor.uasset" SILENT=true
+[2024.08.15-15.46.26:846][881]LogSavePackage: Moving output files for package: /Game/ComponentsActor
+[2024.08.15-15.46.26:846][881]LogSavePackage: Moving 'E:/Unreal courses/Unreal_Portfolio/ToonTanks/Saved/ComponentsActorE94FFAAD42A5CA684F8971B5247DCB67.tmp' to 'E:/Unreal courses/Unreal_Portfolio/ToonTanks/Content/ComponentsActor.uasset'
+[2024.08.15-15.46.26:880][881]LogFileHelpers: InternalPromptForCheckoutAndSave took 64.992 ms (total: 186.229 ms)
+[2024.08.15-15.46.26:900][881]LogContentValidation: Display: Starting to validate 1 assets
+[2024.08.15-15.46.26:900][881]LogContentValidation: Enabled validators:
+[2024.08.15-15.46.26:900][881]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.08.15-15.46.26:900][881]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.08.15-15.46.26:900][881]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.08.15-15.46.26:900][881]LogContentValidation: Display: Validating asset /Game/ComponentsActor.ComponentsActor
+[2024.08.15-15.46.26:900][881]AssetCheck: /Game/ComponentsActor Validating asset
+[2024.08.15-16.31.41:496][951]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.15-17.05.10:540][340]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.15-17.05.10:567][340]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ComponentsActor] ([2] browsable assets)...
+[2024.08.15-17.05.10:567][340]OBJ SavePackage: Finished generating thumbnails for package [/Game/ComponentsActor]
+[2024.08.15-17.05.10:567][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ComponentsActor" FILE="E:/Unreal courses/Unreal_Portfolio/ToonTanks/Content/ComponentsActor.uasset" SILENT=true
+[2024.08.15-17.05.10:581][340]LogSavePackage: Moving output files for package: /Game/ComponentsActor
+[2024.08.15-17.05.10:581][340]LogSavePackage: Moving 'E:/Unreal courses/Unreal_Portfolio/ToonTanks/Saved/ComponentsActorD566E1834883689FD24788BCABBDB9E5.tmp' to 'E:/Unreal courses/Unreal_Portfolio/ToonTanks/Content/ComponentsActor.uasset'
+[2024.08.15-17.05.10:615][340]LogFileHelpers: InternalPromptForCheckoutAndSave took 74.971 ms (total: 261.201 ms)
+[2024.08.15-17.05.10:639][340]LogContentValidation: Display: Starting to validate 1 assets
+[2024.08.15-17.05.10:639][340]LogContentValidation: Enabled validators:
+[2024.08.15-17.05.10:639][340]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.08.15-17.05.10:639][340]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.08.15-17.05.10:639][340]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.08.15-17.05.10:639][340]LogContentValidation: Display: Validating asset /Game/ComponentsActor.ComponentsActor
+[2024.08.15-17.05.10:640][340]AssetCheck: /Game/ComponentsActor Validating asset
+[2024.08.15-17.31.41:498][243]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.15-18.31.41:498][ 41]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.15-19.31.41:499][839]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.15-20.31.41:500][638]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.15-21.31.41:503][436]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.15-22.31.41:505][234]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.002 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.15-23.31.41:506][ 32]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.002 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.16-00.31.41:504][830]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.16-01.31.41:506][628]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.002 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.16-02.31.44:392][426]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.002 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.16-03.31.44:396][224]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.005 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.16-04.31.44:392][ 22]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.16-05.31.44:395][820]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.003 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.16-06.31.44:394][618]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.002 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.16-07.31.44:394][416]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.16-08.31.44:395][214]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.16-09.31.44:398][ 11]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.003 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.16-10.31.44:397][809]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.002 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.16-11.31.44:398][607]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.002 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.16-12.31.44:398][405]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.16-13.31.44:400][203]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.002 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.16-14.31.44:399][  0]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.16-15.31.44:400][798]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.16-16.31.44:401][591]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.16-17.31.44:400][389]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.16-18.31.44:401][187]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.16-19.31.44:404][985]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.002 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.16-20.31.44:404][783]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.16-21.31.44:404][581]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.16-22.31.44:404][379]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.16-23.31.44:404][177]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.17-00.31.44:405][975]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.17-01.31.44:405][773]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.17-02.31.47:486][571]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.002 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.17-03.31.47:486][369]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.17-04.31.47:486][167]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.17-05.31.47:487][964]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.17-06.31.47:487][762]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.17-07.31.47:487][560]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.17-08.31.47:488][224]LogDerivedDataCache: C:/Users/nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.08.17-08.50.15:338][883]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.08.17-08.52.31:659][292]LogLiveCoding: Display:    Creating library E:\Unreal courses\Unreal_Portfolio\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_0.lib and object E:\Unreal courses\Unreal_Portfolio\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_0.exp
+[2024.08.17-08.52.32:207][292]LogClass: UPackage /Script/ToonTanks Reload.
+[2024.08.17-08.52.32:210][292]LogClass: UClass BasePawn Reload.
+[2024.08.17-08.52.32:221][292]LogClass: Could not find existing class BasePawn in package /Script/ToonTanks for reload, assuming new or modified class
+[2024.08.17-08.52.32:291][292]Re-instancing BasePawn after reload.
+[2024.08.17-08.52.32:727][292]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2024.08.17-08.52.33:694][293]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2024.08.17-08.52.33:694][293]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2024.08.17-08.55.29:552][173]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.08.17-08.55.29:553][173]LogEditor: Attempting to add actor of class 'BasePawn' to level at -1130.00,1130.00,64.00
+[2024.08.17-08.55.31:653][402]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2024.08.17-08.55.31:662][402]LogEditorActor: Deleted 0 Actors (0.139 secs)
+[2024.08.17-08.55.31:667][402]LogEditor: Attempting to add actor of class 'BasePawn' to level at -660.00,1140.00,64.00
+[2024.08.17-08.56.06:946][552]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.08.17-08.56.06:955][552]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="E:/Unreal courses/Unreal_Portfolio/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2024.08.17-08.56.06:979][552]LogWorldPartition: Can't find class descriptor '/Game/Maps/Main.Main_C' for saving '/Game/Maps/Main.Main_C'
+[2024.08.17-08.56.06:980][552]LogWorldPartition: Can't find class descriptor '/Game/Maps/Main.Main_C' for saving '/Game/Maps/Main.Main_C'
+[2024.08.17-08.56.06:984][552]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Main_Auto2
+[2024.08.17-08.56.06:984][552]LogSavePackage: Moving 'E:/Unreal courses/Unreal_Portfolio/ToonTanks/Saved/Main_Auto25D53369A4FFD7374797E57B25E107E6B.tmp' to 'E:/Unreal courses/Unreal_Portfolio/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto2.umap'
+[2024.08.17-08.56.06:990][552]LogAssetRegistry: Warning: ScanPathsSynchronous: E:/Unreal courses/Unreal_Portfolio/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto2.umap is in the /Temp path, will not scan.
+[2024.08.17-08.56.06:990][552]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/Maps/Main_Auto2 is in the /Temp path, will not scan.
+[2024.08.17-08.56.06:991][552]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/Maps/Main_Auto2 is in the /Temp path, will not scan.
+[2024.08.17-08.56.06:991][552]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.099
+[2024.08.17-08.56.06:991][552]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.099
+[2024.08.17-08.56.40:948][911]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2024.08.17-08.56.40:956][911]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.17-08.56.40:996][911]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="E:/Unreal courses/Unreal_Portfolio/ToonTanks/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.08.17-08.56.41:028][911]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2024.08.17-08.56.41:034][911]LogWorldPartition: Can't find class descriptor '/Game/Maps/Main.Main_C' for saving '/Game/Maps/Main.Main_C'
+[2024.08.17-08.56.41:034][911]LogWorldPartition: Can't find class descriptor '/Game/Maps/Main.Main_C' for saving '/Game/Maps/Main.Main_C'
+[2024.08.17-08.56.41:036][911]LogSavePackage: Moving output files for package: /Game/Maps/Main
+[2024.08.17-08.56.41:037][911]LogSavePackage: Moving 'E:/Unreal courses/Unreal_Portfolio/ToonTanks/Saved/Main30626E834A4B6EBB5969799ADFB4806F.tmp' to 'E:/Unreal courses/Unreal_Portfolio/ToonTanks/Content/Maps/Main.umap'
+[2024.08.17-08.56.41:051][911]LogFileHelpers: Saving map 'Main' took 0.055
+[2024.08.17-08.56.41:097][911]LogFileHelpers: InternalPromptForCheckoutAndSave took 140.741 ms (total: 401.942 ms)
+[2024.08.17-08.56.41:125][911]LogContentValidation: Display: Starting to validate 1 assets
+[2024.08.17-08.56.41:125][911]LogContentValidation: Enabled validators:
+[2024.08.17-08.56.41:125][911]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.08.17-08.56.41:125][911]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.08.17-08.56.41:125][911]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.08.17-08.56.41:126][911]LogContentValidation: Display: Validating asset /Game/Maps/Main.Main
+[2024.08.17-08.56.41:126][911]AssetCheck: /Game/Maps/Main Validating asset
+[2024.08.17-09.03.18:443][343]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.08.17-09.05.29:575][737]LogLiveCoding: Display:    Creating library E:\Unreal courses\Unreal_Portfolio\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_1.lib and object E:\Unreal courses\Unreal_Portfolio\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_1.exp
+[2024.08.17-09.05.30:009][737]LogClass: UPackage /Script/ToonTanks Reload.
+[2024.08.17-09.05.30:009][737]LogClass: UClass BasePawn Reload.
+[2024.08.17-09.05.30:009][737]LogClass: Could not find existing class BasePawn in package /Script/ToonTanks for reload, assuming new or modified class
+[2024.08.17-09.05.30:019][737]Re-instancing BasePawn after reload.
+[2024.08.17-09.05.30:114][737]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.08.17-09.05.30:572][738]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2024.08.17-09.05.30:572][738]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2024.08.17-09.05.37:359][111]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.08.17-09.05.38:305][113]Display: Reload/Re-instancing Complete: No object changes detected
+[2024.08.17-09.05.38:305][113]LogLiveCoding: Display: Live coding succeeded, no code changes detected
+[2024.08.17-09.08.05:715][556]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.08.17-09.10.12:293][935]LogLiveCoding: Display:    Creating library E:\Unreal courses\Unreal_Portfolio\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_2.lib and object E:\Unreal courses\Unreal_Portfolio\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_2.exp
+[2024.08.17-09.10.12:529][935]LogClass: UPackage /Script/ToonTanks Reload.
+[2024.08.17-09.10.12:529][935]LogClass: UClass BasePawn Reload.
+[2024.08.17-09.10.12:529][935]LogClass: Could not find existing class BasePawn in package /Script/ToonTanks for reload, assuming new or modified class
+[2024.08.17-09.10.12:539][935]Re-instancing BasePawn after reload.
+[2024.08.17-09.10.12:651][935]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2024.08.17-09.10.13:008][936]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2024.08.17-09.10.13:008][936]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2024.08.17-09.11.02:049][376]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2024.08.17-09.11.31:340][145]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.08.17-09.11.31:347][145]LogContentBrowser: Creating deferred item: NewFolder
+[2024.08.17-09.11.31:357][146]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.08.17-09.11.40:967][303]LogContentBrowser: Attempting asset rename: NewFolder -> NewFolder
+[2024.08.17-09.11.40:968][303]LogContentBrowser: End creating deferred item NewFolder
+[2024.08.17-09.11.53:837][533]LogContentBrowser: Attempting asset rename: NewFolder -> BluePrints
+[2024.08.17-09.12.02:389][835]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.08.17-09.12.02:400][835]LogContentBrowser: Creating deferred item: NewFolder
+[2024.08.17-09.12.02:416][837]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.08.17-09.12.06:114][281]LogContentBrowser: Attempting asset rename: NewFolder -> Pawns
+[2024.08.17-09.12.06:114][281]LogContentBrowser: End creating deferred item NewFolder
+[2024.08.17-09.12.22:685][100]LogSlate: Took 0.005756 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.08.17-09.13.00:854][662]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/Pawns/BP_PawnTank.BP_PawnTank
+[2024.08.17-09.13.00:886][662]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Engine/Transient.World_4'.
+[2024.08.17-09.13.01:123][662]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2024.08.17-09.13.08:056][ 52]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.17-09.13.08:076][ 52]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/Pawns/BP_PawnTank] ([2] browsable assets)...
+[2024.08.17-09.13.08:076][ 52]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Pawns/BP_PawnTank]
+[2024.08.17-09.13.08:076][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Pawns/BP_PawnTank" FILE="E:/Unreal courses/Unreal_Portfolio/ToonTanks/Content/BluePrints/Pawns/BP_PawnTank.uasset" SILENT=true
+[2024.08.17-09.13.08:082][ 52]LogSavePackage: Moving output files for package: /Game/BluePrints/Pawns/BP_PawnTank
+[2024.08.17-09.13.08:082][ 52]LogSavePackage: Moving 'E:/Unreal courses/Unreal_Portfolio/ToonTanks/Saved/BP_PawnTankFE0BF6E84E777F57A8AF79B214B5E13D.tmp' to 'E:/Unreal courses/Unreal_Portfolio/ToonTanks/Content/BluePrints/Pawns/BP_PawnTank.uasset'
+[2024.08.17-09.13.08:400][ 52]LogFileHelpers: InternalPromptForCheckoutAndSave took 345.210 ms (total: 747.153 ms)
+[2024.08.17-09.13.08:435][ 52]LogContentValidation: Display: Starting to validate 1 assets
+[2024.08.17-09.13.08:435][ 52]LogContentValidation: Enabled validators:
+[2024.08.17-09.13.08:435][ 52]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.08.17-09.13.08:435][ 52]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.08.17-09.13.08:435][ 52]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.08.17-09.13.08:435][ 52]LogContentValidation: Display: Validating asset /Game/BluePrints/Pawns/BP_PawnTank.BP_PawnTank
+[2024.08.17-09.13.08:435][ 52]AssetCheck: /Game/BluePrints/Pawns/BP_PawnTank Validating asset
+[2024.08.17-09.21.25:778][757]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.08.17-09.22.38:570][ 94]LogContentBrowser: Deferred new asset file creation: BP_PawnTank_Child
+[2024.08.17-09.22.38:584][ 94]LogContentBrowser: Creating deferred item: BP_PawnTank_Child
+[2024.08.17-09.22.38:594][ 95]LogContentBrowser: Renaming the item being created (Deferred Item: BP_PawnTank_Child).
+[2024.08.17-09.22.45:404][911]LogContentBrowser: Attempting asset rename: BP_PawnTank_Child -> BP_PawnTank_Child
+[2024.08.17-09.22.45:416][911]LogContentBrowser: End creating deferred item BP_PawnTank_Child
+[2024.08.17-09.22.47:638][169]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2024.08.17-09.22.49:557][169]LogSlate: Window 'Delete Assets' being destroyed
+[2024.08.17-09.22.49:593][169]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.08.17-09.22.49:607][169]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.08.17-09.22.49:620][169]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2024.08.17-09.23.01:689][519]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2024.08.17-09.23.01:693][519]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.17-09.23.01:753][519]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.08.17-09.23.03:238][694]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.08.17-09.23.03:238][694]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2024.08.17-09.23.03:239][694]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.17-09.23.03:366][694]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.08.17-09.23.44:431][781]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/Pawns/BP_PawnTurret.BP_PawnTurret
+[2024.08.17-09.23.44:432][781]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Engine/Transient.World_5'.
+[2024.08.17-09.23.44:893][781]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2024.08.17-09.23.46:938][794]LogLiveCoding: Display:    Creating library E:\Unreal courses\Unreal_Portfolio\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_3.lib and object E:\Unreal courses\Unreal_Portfolio\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_3.exp
+[2024.08.17-09.23.47:253][794]LogClass: UPackage /Script/ToonTanks Reload.
+[2024.08.17-09.23.47:253][794]LogClass: UClass BasePawn Reload.
+[2024.08.17-09.23.47:253][794]LogClass: Could not find existing class BasePawn in package /Script/ToonTanks for reload, assuming new or modified class
+[2024.08.17-09.23.47:261][794]Re-instancing BasePawn after reload.
+[2024.08.17-09.23.47:463][794]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.08.17-09.23.47:917][795]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2024.08.17-09.23.47:917][795]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2024.08.17-09.23.59:852][868]LogSlate: Window 'BP_PawnTurret' being destroyed
+[2024.08.17-09.24.12:339][307]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.17-09.24.12:355][307]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/Pawns/BP_PawnTurret] ([2] browsable assets)...
+[2024.08.17-09.24.12:355][307]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Pawns/BP_PawnTurret]
+[2024.08.17-09.24.12:355][307]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Pawns/BP_PawnTurret" FILE="E:/Unreal courses/Unreal_Portfolio/ToonTanks/Content/BluePrints/Pawns/BP_PawnTurret.uasset" SILENT=true
+[2024.08.17-09.24.12:359][307]LogSavePackage: Moving output files for package: /Game/BluePrints/Pawns/BP_PawnTurret
+[2024.08.17-09.24.12:359][307]LogSavePackage: Moving 'E:/Unreal courses/Unreal_Portfolio/ToonTanks/Saved/BP_PawnTurretD128960841068194333BCAB9344EB146.tmp' to 'E:/Unreal courses/Unreal_Portfolio/ToonTanks/Content/BluePrints/Pawns/BP_PawnTurret.uasset'
+[2024.08.17-09.24.13:133][307]LogFileHelpers: InternalPromptForCheckoutAndSave took 794.244 ms (total: 1.54 sec)
+[2024.08.17-09.24.13:161][307]LogContentValidation: Display: Starting to validate 1 assets
+[2024.08.17-09.24.13:161][307]LogContentValidation: Enabled validators:
+[2024.08.17-09.24.13:161][307]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.08.17-09.24.13:161][307]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.08.17-09.24.13:161][307]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.08.17-09.24.13:161][307]LogContentValidation: Display: Validating asset /Game/BluePrints/Pawns/BP_PawnTurret.BP_PawnTurret
+[2024.08.17-09.24.13:161][307]AssetCheck: /Game/BluePrints/Pawns/BP_PawnTurret Validating asset
+[2024.08.17-09.24.49:430][532]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/Pawns/BP_PawnTank.BP_PawnTank
+[2024.08.17-09.24.49:432][532]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Engine/Transient.World_6'.
+[2024.08.17-09.24.54:438][ 38]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.08.17-09.24.54:438][ 38]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.17-09.24.54:448][ 38]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/Pawns/BP_PawnTank.BP_PawnTank
+[2024.08.17-09.24.54:448][ 38]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Engine/Transient.World_7'.
+[2024.08.17-09.24.54:639][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   5.11ms
+[2024.08.17-09.25.01:571][810]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2024.08.17-09.25.01:571][810]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.17-09.25.01:639][810]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.08.17-09.25.02:878][955]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.08.17-09.25.02:878][955]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.08.17-09.25.02:878][955]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.17-09.25.02:911][955]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.08.17-09.25.11:417][290]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
