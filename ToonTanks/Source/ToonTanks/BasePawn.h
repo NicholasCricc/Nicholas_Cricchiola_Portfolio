@@ -15,13 +15,19 @@ public:
 	// Sets default values for this pawn's properties
 	ABasePawn();
 
-	UPROPERTY(VisibleAnywhere) //VisibleInstanceOnly
-	int32 VisibleAnywhereInt = 32;
-
 	UPROPERTY(VisibleDefaultsOnly)
-	int32 VisibleInstanceOnlyInt = 5;
+	int32 VisibleDefaultsOnlyInt = 5;
 
-	UPROPERTY(EditAnyWhere)
+	UPROPERTY(VisibleInstanceOnly)
+	int32 VisibleInstanceOnlyInt = 11;
+
+	UPROPERTY(EditDefaultsOnly)
+	int32 EditDeafultsOnlyInt = 9;
+
+	UPROPERTY(EditInstanceOnly)
+	int32 EditInstanceOnlyInt = 9;
+
+	UPROPERTY(EditAnyWhere, BluePrintReadWrite)
 	float speed = 400.f;
 
 protected:
@@ -29,24 +35,29 @@ protected:
 	virtual void BeginPlay() override;
 
 private:
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
 	class UCapsuleComponent* CapsuleComp;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
 	UStaticMeshComponent* BaseMesh;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
 	UStaticMeshComponent* TurretMesh;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
 	USceneComponent* ProjectileSpawnPoint;
+
+	UPROPERTY(VisibleAnywhere, BluePrintReadWrite, Category = "Variables", meta = (AllowPrivateAccess = "true")) 
+	int32 VisibleAnywhereInt = 12;
+
+	UPROPERTY(EditAnywhere, BluePrintReadOnly, Category = "Variables", meta = (AllowPrivateAccess = "true")) 
+	int32 EditAnywhereInt = 22;
 
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	// Called to bind functionality to input
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
 
 
 };

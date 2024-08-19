@@ -281,8 +281,8 @@
 /I "Editor\SceneDepthPickerMode\Public"
 /I "..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationEditMode\UHT"
 /I "Editor\AnimationEditMode\Public"
-/I "C:\Users\nicho\OneDrive\portofolio\Nicholas_Cricchiola_Portfolio\ToonTanks\Intermediate\Build\Win64\UnrealEditor\Inc\ToonTanks\UHT"
-/I "C:\Users\nicho\OneDrive\portofolio\Nicholas_Cricchiola_Portfolio\ToonTanks\Source"
+/I "E:\Unreal courses\Unreal_Portfolio\ToonTanks\Intermediate\Build\Win64\UnrealEditor\Inc\ToonTanks\UHT"
+/I "E:\Unreal courses\Unreal_Portfolio\ToonTanks\Source"
 /external:W0
 /external:I "ThirdParty\LibTiff\Source\Win64"
 /external:I "ThirdParty\LibTiff\Source"
