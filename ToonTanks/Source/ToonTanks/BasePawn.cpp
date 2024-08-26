@@ -36,5 +36,7 @@ void ABasePawn::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+
+
 }
 
