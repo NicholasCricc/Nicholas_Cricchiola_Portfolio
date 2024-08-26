@@ -15,21 +15,6 @@ public:
 	// Sets default values for this pawn's properties
 	ABasePawn();
 
-	UPROPERTY(VisibleDefaultsOnly)
-	int32 VisibleDefaultsOnlyInt = 5;
-
-	UPROPERTY(VisibleInstanceOnly)
-	int32 VisibleInstanceOnlyInt = 11;
-
-	UPROPERTY(EditDefaultsOnly)
-	int32 EditDeafultsOnlyInt = 9;
-
-	UPROPERTY(EditInstanceOnly)
-	int32 EditInstanceOnlyInt = 9;
-
-	UPROPERTY(EditAnyWhere, BluePrintReadWrite)
-	float speed = 400.f;
-
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

@@ -5,6 +5,7 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 #include "Components/InputComponent.h"
+#include "Kismet/GameplayStatics.h"
 
 
 ATank::ATank()
@@ -28,7 +29,6 @@ void ATank::Move(float Value)
     UE_LOG(LogTemp, Display, TEXT("Value: %f"), Value);
 
     FVector DeltaLocation = FVector::ZeroVector;
-    // X = Value * DeltaTime * Speed
-	DeltaLocation.X = Value;
+	DeltaLocation.X = Value * Speed * UGameplayStatics::GetWorldDeltaSeconds(this);
 	AddActorLocalOffset(DeltaLocation);
 }
