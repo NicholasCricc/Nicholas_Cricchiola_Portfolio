@@ -15,6 +15,9 @@ public:
 	// Sets default values for this pawn's properties
 	ABasePawn();
 
+protected:
+
+	void RotateTurret(FVector LookTarget);
 
 
 private:
@@ -35,12 +38,4 @@ private:
 
 	UPROPERTY(EditAnywhere, BluePrintReadOnly, Category = "Variables", meta = (AllowPrivateAccess = "true")) 
 	int32 EditAnywhereInt = 22;
-
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-
-
-
-
 };
