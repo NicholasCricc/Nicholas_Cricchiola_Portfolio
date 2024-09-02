@@ -36,13 +36,24 @@ struct Z_Construct_UClass_ATower_Statics
 		{ "IncludePath", "Tower.h" },
 		{ "ModuleRelativePath", "Tower.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FireRange_MetaData[] = {
+		{ "Category", "Combat" },
+		{ "ModuleRelativePath", "Tower.h" },
+	};
 #endif // WITH_METADATA
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_FireRange;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ATower>::IsAbstract,
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATower_Statics::NewProp_FireRange = { "FireRange", nullptr, (EPropertyFlags)0x0040000000010001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ATower, FireRange), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_FireRange_MetaData), NewProp_FireRange_MetaData) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATower_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATower_Statics::NewProp_FireRange,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ATower_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_ATower_Statics::DependentSingletons[])() = {
 	(UObject* (*)())Z_Construct_UClass_ABasePawn,
 	(UObject* (*)())Z_Construct_UPackage__Script_ToonTanks,
@@ -54,11 +65,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_ATower_Statics::ClassPa
 	&StaticCppClassTypeInfo,
 	DependentSingletons,
 	nullptr,
-	nullptr,
+	Z_Construct_UClass_ATower_Statics::PropPointers,
 	nullptr,
 	UE_ARRAY_COUNT(DependentSingletons),
 	0,
-	0,
+	UE_ARRAY_COUNT(Z_Construct_UClass_ATower_Statics::PropPointers),
 	0,
 	0x009000A4u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ATower_Statics::Class_MetaDataParams), Z_Construct_UClass_ATower_Statics::Class_MetaDataParams)
@@ -84,10 +95,10 @@ ATower::~ATower() {}
 struct Z_CompiledInDeferFile_FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_ToonTanks_Source_ToonTanks_Tower_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ATower, ATower::StaticClass, TEXT("ATower"), &Z_Registration_Info_UClass_ATower, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATower), 3835742649U) },
+		{ Z_Construct_UClass_ATower, ATower::StaticClass, TEXT("ATower"), &Z_Registration_Info_UClass_ATower, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATower), 4123700477U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_ToonTanks_Source_ToonTanks_Tower_h_633717150(TEXT("/Script/ToonTanks"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_ToonTanks_Source_ToonTanks_Tower_h_1077417226(TEXT("/Script/ToonTanks"),
 	Z_CompiledInDeferFile_FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_ToonTanks_Source_ToonTanks_Tower_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_ToonTanks_Source_ToonTanks_Tower_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
