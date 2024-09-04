@@ -74,3 +74,6 @@ Plugins/*/Intermediate/*
 DerivedDataCache/*
 WarehouseWreckage/Saved/Telemetry/Telemetry.json
 *.json
+
+# Ignore the workspace file
+ToonTanks.code-workspace
