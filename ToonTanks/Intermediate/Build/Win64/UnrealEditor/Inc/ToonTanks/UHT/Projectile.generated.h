@@ -17,11 +17,11 @@ struct FHitResult;
 #endif
 #define TOONTANKS_Projectile_generated_h
 
-#define FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_ToonTanks_Source_ToonTanks_Projectile_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_ToonTanks_Source_ToonTanks_Projectile_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOnHit);
 
 
-#define FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_ToonTanks_Source_ToonTanks_Projectile_h_12_INCLASS_NO_PURE_DECLS \
+#define FID_ToonTanks_Source_ToonTanks_Projectile_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAProjectile(); \
 	friend struct Z_Construct_UClass_AProjectile_Statics; \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(AProjectile)
 
 
-#define FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_ToonTanks_Source_ToonTanks_Projectile_h_12_ENHANCED_CONSTRUCTORS \
+#define FID_ToonTanks_Source_ToonTanks_Projectile_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	AProjectile(AProjectile&&); \
@@ -42,13 +42,13 @@ public: \
 	NO_API virtual ~AProjectile();
 
 
-#define FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_ToonTanks_Source_ToonTanks_Projectile_h_9_PROLOG
-#define FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_ToonTanks_Source_ToonTanks_Projectile_h_12_GENERATED_BODY \
+#define FID_ToonTanks_Source_ToonTanks_Projectile_h_9_PROLOG
+#define FID_ToonTanks_Source_ToonTanks_Projectile_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_ToonTanks_Source_ToonTanks_Projectile_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_ToonTanks_Source_ToonTanks_Projectile_h_12_INCLASS_NO_PURE_DECLS \
-	FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_ToonTanks_Source_ToonTanks_Projectile_h_12_ENHANCED_CONSTRUCTORS \
+	FID_ToonTanks_Source_ToonTanks_Projectile_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_ToonTanks_Source_ToonTanks_Projectile_h_12_INCLASS_NO_PURE_DECLS \
+	FID_ToonTanks_Source_ToonTanks_Projectile_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -56,7 +56,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> TOONTANKS_API UClass* StaticClass<class AProjectile>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_nicho_OneDrive_portofolio_Nicholas_Cricchiola_Portfolio_ToonTanks_Source_ToonTanks_Projectile_h
+#define CURRENT_FILE_ID FID_ToonTanks_Source_ToonTanks_Projectile_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
